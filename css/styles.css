@@ -1,0 +1,191 @@
+:root {
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --third-bgc: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --light-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --main-btn-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  background-color: var(--primary-bgc);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--secondary-bgc);
+}
+
+.hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--light-text-color);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero .btn {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.88;
+  color: var(--light-text-color);
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Benefits */
+.benefits .subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits .text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+/* Specialization and Team */
+.specialization .title,
+.team .title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--third-bgc);
+}
+
+.team .subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team .text {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--secondary-bgc);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address .location-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--light-text-color);
+  text-decoration: none;
+}
+
+.address .link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+
+/* Filter */
+
+.filter .btn {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.62;
+  background-color: var(--main-btn-color);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter .btn:hover,
+.filter .btn:focus {
+  color: var(--light-text-color);
+  background-color: var(--accent-color);
+  border: 0;
+}
+
+/* Works */
+
+.works .subtitle {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works .text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
