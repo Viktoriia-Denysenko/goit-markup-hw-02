@@ -34,6 +34,10 @@ body {
   text-decoration: none;
 }
 
+.header .logo-second-word {
+  color: var(--primary-text-color);
+}
+
 /* Site nav */
 
 .site-nav .link {
@@ -50,7 +54,7 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.link.current {
   color: var(--accent-color);
 }
 
@@ -90,6 +94,11 @@ body {
   cursor: pointer;
 }
 
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: var(--hover-btn-color);
+}
+
 /* Benefits */
 .benefits .subtitle {
   font-size: 14px;
@@ -115,6 +124,10 @@ body {
   background-color: var(--third-bgc);
 }
 
+.team-desc {
+  background-color: var(--primary-bgc);
+}
+
 .team .subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -132,6 +145,10 @@ body {
 /* Footer */
 .footer {
   background-color: var(--secondary-bgc);
+}
+
+.footer .logo-second-word {
+  color: var(--light-text-color);
 }
 
 .address {
